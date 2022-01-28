@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/* line 8, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  margin: auto;
+  color: white;
+}
+
+/* line 16, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main article {
+  padding: 40px;
+}
+
+/* line 19, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main article h2 {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.8em;
+  font-family: 'Big Shoulders Display', sans-serif;
+}
+
+/* line 26, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main article p {
+  opacity: .8;
+  font-family: 'Luxend Deca', sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+/* line 32, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main article .btn {
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+/* line 44, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #sedans {
+  background-color: #E28525;
+  border-radius: 10px 0 0 10px;
+}
+
+/* line 47, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #sedans button {
+  color: #E28525;
+}
+
+/* line 49, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #sedans button:hover {
+  background-color: #E28525;
+}
+
+/* line 54, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #suvs {
+  background-color: #016972;
+}
+
+/* line 56, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #suvs button {
+  color: #016972;
+}
+
+/* line 58, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #suvs button:hover {
+  background-color: #016972;
+}
+
+/* line 63, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #luxury {
+  background-color: #00403F;
+  border-radius: 0 10px 10px 0;
+}
+
+/* line 66, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #luxury button {
+  color: #00403F;
+}
+
+/* line 68, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main #luxury button:hover {
+  background-color: #00403F;
+}
+
+/* line 74, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main .btn {
+  display: block;
+  cursor: pointer;
+}
+
+/* line 77, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+main .btn:hover {
+  color: white !important;
+  border: 1px solid white;
+}
+
+@media (max-width: 1200px) {
+  /* line 86, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+  main {
+    display: block;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  /* line 92, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+  main article {
+    border-radius: 0;
+  }
+  /* line 94, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+  main article p {
+    line-height: 1.7em;
+  }
+  /* line 98, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+  main #sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  /* line 101, ../../../Documents/Front/3-column-preview-card-component-main/style/style.scss */
+  main #luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
